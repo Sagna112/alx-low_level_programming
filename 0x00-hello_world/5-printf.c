@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * manin -Entry point
+ * main -Entry point
  *
  * Deacription : with proper grammar, but the outcome is a piece of art
  *
@@ -9,6 +9,6 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art\n");
+	printf("\"with proper grammar, but the outcome is a piece of art");
 	return (0);
 }
