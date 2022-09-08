@@ -1,0 +1,3 @@
+#!/bin/bash
+#include <stdio.h>
+$CFILE = 0-preprocessor main.o
