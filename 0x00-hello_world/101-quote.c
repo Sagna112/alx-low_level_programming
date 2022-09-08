@@ -4,7 +4,7 @@
 /**
  * main - prit qoute
  *
- * Description: gets "and that piece of art is useful" - Dora Korpar, 2015-10-19"
+ * Description: gets "and that piece of art is useful\" - Dora Korpar, 2015-10-19"
  *
  * Return: Always 0 (success)
  */
