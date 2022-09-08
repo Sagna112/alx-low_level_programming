@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Deacription : with proper grammar, but the outcome is a piece of art
+ * Description : "with proper grammar, but the outcome is a piece of art"
  *
- * return : 0 always
+ * Return : Always 0 
  */
 int main(void)
 {
