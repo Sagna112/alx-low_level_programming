@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
- * main
- * decription
+ * main - Entry point
+ *
  * prints "Programming is like building a multilingual puzzle"
+ *
  *Return: Always 0
  *
  */
