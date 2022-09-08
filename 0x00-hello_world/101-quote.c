@@ -4,8 +4,7 @@
 /**
  * main - prit qoute
  *
- *Description : Dora qoute
-
+ * Description : Dora qoute
  * Return: Always 0 (success)
  */
 int main(void)
