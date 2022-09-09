@@ -3,7 +3,7 @@
 int main(void)
 	/**
 	 * main -Entry point
-	 * /
+	 */
 	 int n = 0;
 	 /* C condition statement */
 	if( n > 0)
