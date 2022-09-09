@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main(void){
 	/**
 	 * main -Entry point
 	 */
@@ -10,6 +10,6 @@ int main(void)
 { printf("is positive\n");}
           else if( n == 0) {
 	printf("is zero\n");
-	/* it should return zero */
+	/* it should return zero */}
 	  else {/* it should return its negative */  printf("is negative\n");}
-	  return (0);
+	  return (0);}
