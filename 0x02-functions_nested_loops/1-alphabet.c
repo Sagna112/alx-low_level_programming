@@ -1,19 +1,20 @@
 #include "main.h"
 /**
- * main - alphabet in lower
+ * main - alphabet in low
  *
- * Description - print_alphabet
+ * print_alphabet - print alphabet
  *
  * Return : void
  */
 void print_alphabet(void)
 {
 	char i = 'a';
+
 	while (i <= 'z')
 	{
 		_putchar(i);
 		i++;
-        }
+	}
 	_putchar('\n');
 }
 
