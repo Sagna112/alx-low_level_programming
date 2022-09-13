@@ -1,7 +1,5 @@
 #include "main.h"
 /**
- * main - alphabet in low
- *
  * print_alphabet - print alphabet
  *
  * Return : void
