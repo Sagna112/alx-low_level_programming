@@ -4,7 +4,7 @@
  *
  * Deacription - print alphabet
  *
- * Return : 0 (success)
+ * Return : void
  */
 void print_alphabet(void)
 {
@@ -13,7 +13,7 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 		i++;	
-       }	
+        }	
 	_putchar('\n');
 }
 
