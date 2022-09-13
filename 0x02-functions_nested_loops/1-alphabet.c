@@ -9,17 +9,18 @@
 void print_alphabet(void);
 int main(void)
 {
-	print_alphabet();
-	{
-		char i = 'a';
+	char i = 'a';
 	while (i <= 'z')
 	{
 		_putchar(i);
 		i++;	
        }	
 	_putchar('\n');
-	}
-
-
-	return 0;
 }
+int main(void)
+{
+    print_alphabet();
+    return (0);
+}
+
+
