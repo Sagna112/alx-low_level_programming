@@ -2,7 +2,7 @@
 /**
  * main - alphabet in lower
  *
- * Deacription - print alphabet
+ * Description - print_alphabet
  *
  * Return : void
  */
