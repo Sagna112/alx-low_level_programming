@@ -6,9 +6,9 @@
  *
  * Return : 0 (success)
  */
+void print_alphabet(void);
 int main(void)
 {
-	void print_alphabet(void);
 	int i = 97;
        while (i < 123)
        {
