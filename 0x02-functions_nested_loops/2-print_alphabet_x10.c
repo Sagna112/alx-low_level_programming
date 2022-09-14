@@ -13,10 +13,10 @@ void print_alphabet_x10(void)
 		char alp = 'a';
 		while (alp <= 'z')
 		{
-			putchar(alp);
+			_putchar(alp);
 			alp++;
 		}
 		i++;
-		putchar('\n');
+		_putchar('\n');
 	}
 }
