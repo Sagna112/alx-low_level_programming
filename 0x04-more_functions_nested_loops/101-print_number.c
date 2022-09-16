@@ -6,6 +6,7 @@ void print_integer(int m);
  * @n: An input integer
  * Return: Nothing
  */
+
 void print_number(int n)
 {
 	if (n == 0)
@@ -24,6 +25,7 @@ void print_number(int n)
  * @m: an input unsigned integer
  * Return: Nothing
  */
+
 void print_integer(int m)
 {
 	int i = 1000000000;
