@@ -1,4 +1,4 @@
-#include "main.d"
+#include "main.h"
 
 /**
  * _puts - check the code for Holberton School students.
