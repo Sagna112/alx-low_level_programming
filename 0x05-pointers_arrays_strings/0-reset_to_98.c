@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - void reset_to_98(int *n)
+ * reset_to_98 - check the code for pointer
  *@n - n is pointer n and return value 98
  * Return void
  */
