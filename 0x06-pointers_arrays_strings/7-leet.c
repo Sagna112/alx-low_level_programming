@@ -1,29 +1,27 @@
 #include "main.h"
 
-
 /**
- * leet - function that encodes a string into 1337
- * @s: string array
- * Return: string array
+ * leet - Function that reverses the content of an array of integers.
+ *
+ * @str: s is the array
+ *
+ * Return: Always 0.
  */
-
-char *leet(char *s)
+char *leet(char *str)
 {
-	int i;
+	int i = 0, k;
+	char s[] = "aAeEoOtTlL";
+	char s1[] = "4433007711";
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (; str[i] != '\0'; i++)
 	{
-		if (s[i] == 'a' || s[i] == 'A')
-			s[i] = '4';
-		if (s[i] == 'e' || s[i] == 'E')
-			s[i] = '3';
-		if (s[i] == 'o' || s[i] == 'O')
-			s[i] = '0';
-		if (s[i] == 't' || s[i] == 'T')
-			s[i] = '7';
-		if (s[i] == 'l' || s[i] == 'L')
-			s[i] = '1';
+		for (k = 0; k <= 9; k++)
+		{
+			if (s[k] == str[i])
+			{
+				str[i] = s1[k];
+			}
+		}
 	}
-
-	return (s);
+	return (str);
 }
