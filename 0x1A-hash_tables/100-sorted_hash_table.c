@@ -9,6 +9,7 @@ void shash_table_delete(shash_table_t *ht);
 
 /**
  * shash_table_create - Creates a sorted hash table.
+ * @size: The size of new sorted hash table.
  *
  * Return: If an error occurs - NULL.
  *         Otherwise - a pointer to the new sorted hash table.
@@ -92,8 +93,8 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 		new->snext = NULL;
 		ht->shead = new;
 		ht->stail = new;
-	}
-	else if (strcmp(ht->shead->key, key) > 0)
+	}	
+else if (strcmp(ht->shead->key, key) > 0)
 	{
 		new->sprev = NULL;
 		new->snext = ht->shead;
